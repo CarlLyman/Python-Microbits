@@ -5,6 +5,7 @@ CC By NC SA
 
 ## Overview
 This is an introduction to coding and computer science by way of making and design, using the revolutionary new microbit* microcontroller board, and MicroPython coding environment. It is a project-based curriculum with a maker philosophy at its core; the idea is that by making physical objects, students create a context to learn computer science concepts, to think creatively, to code, and to become innovative. 
+![alt text](../assets/0.0 Temperature Simulator 2018-02-06_12-02-42.png "Microbit Temperature")
 
 ## Module 1:  Design & Making with Microbit
 This module introduces the microbit as a piece of hardware that has a specific size and weight, and generally must be supported and incorporated as an essential component of a tangible artifact. Focus on making a pet robot and incorporating the physical microbit as the face of the project. 
