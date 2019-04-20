@@ -1,7 +1,7 @@
 # Coding & Innovation using Microbits & Python
-by Carl Lyman
-April 2019
-CC By NC SA
+- by Carl Lyman
+- April 2019
+- CC By NC SA
 
 ## Overview
 This is an introduction to coding and computer science by way of making and design, using the revolutionary new microbit* microcontroller board, and MicroPython coding environment. It is a project-based curriculum with a maker philosophy at its core; the idea is that by making physical objects, students create a context to learn computer science concepts, to think creatively, to code, and to become innovative. 
@@ -12,6 +12,7 @@ This module introduces the microbit as a piece of hardware that has a specific s
 - [01 Unplugged](01intro/01.1unplugged.md)
 - [01 Activities](01intro/01.2activities.md)
 - [01 Project](01intro/01.3project.md)
+
 ## Module 2:  Software & Hardware (Algorithms)
 This module introduces a conceptual framework for thinking of a computing device as something that uses code to process one or more inputs and send them to an output(s). Questions to be answered include: What is a computer? What is a microbit and what can it do? Students will be introduced to the basic algorithm of input, processing, and output (IPO). Students will be making projects that utilize the microbit sensors to get input, the microbit and basic math to process the input, and the LED screen to output the results.
 
