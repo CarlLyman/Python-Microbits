@@ -1,7 +1,7 @@
 # Coding & Innovation using Microbits & Python
 - by Carl Lyman
 - April 2019
-- CC By NC SA
+CC By NC SA
 
 ## Overview
 This is an introduction to coding and computer science by way of making and design, using the revolutionary new microbit* microcontroller board, and MicroPython coding environment. It is a project-based curriculum with a maker philosophy at its core; the idea is that by making physical objects, students create a context to learn computer science concepts, to think creatively, to code, and to become innovative. 
