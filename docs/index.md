@@ -36,6 +36,8 @@ In this module, students will be reviewing the concepts they covered in the prev
 ## References:
 Instructions to update the firmware on the Microbit. https://support.microbit.org/support/solutions/articles/19000019131-how-to-upgrade-the-firmware-on-the-micro-bit 
 
+[Google Doc link](https://docs.google.com/document/d/1w1fg2MMTrrvsuGTN9sO4tzghgKS3s03gjcRN1JnEbSQ/edit?usp=sharing)
+
 ### MicroPython Editors
 In the browser MicroPython editor: https://python.microbit.org/v/1.1 Downloadable MicroPython editor Mu can be found at: https://codewith.mu/ It will run on Windows or Mac OS.
 
