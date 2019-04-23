@@ -10,10 +10,11 @@ This is an introduction to coding and computer science by way of making and desi
 
 ## Module 1:  Design & Making with Microbit
 This module introduces the microbit as a piece of hardware that has a specific size and weight, and generally must be supported and incorporated as an essential component of a tangible artifact. Focus on making a pet robot and incorporating the physical microbit as the face of the project. 
-- [01 Intro](01intro/01.0overview.md)
-- [01 Unplugged](01intro/01.1unplugged.md)
-- [01 Activities](01intro/01.2activities.md)
-- [01 Project](01intro/01.3project.md)
+- [01 Introduction: The Microbit is for Making](01intro/01.0overview.md)
+- [01 Unplugged: Design Thinking](01intro/01.1unplugged.md)
+- [01 Activities: MicroPython Editor & Download](01intro/01.2activities.md)
+- [01 Project: MicroRobot (including mods & rubic)](01intro/01.3project.md)
+- [Google Doc version Module 1: Design & Making with Microbit](https://docs.google.com/document/d/1TZWpDW8wXHbn2dKs0RUtMUwOOmRWP5ssCERXIbpjmd0/edit?usp=sharing)
 
 ## Module 2:  Software & Hardware (Algorithms)
 This module introduces a conceptual framework for thinking of a computing device as something that uses code to process one or more inputs and send them to an output(s). Questions to be answered include: What is a computer? What is a microbit and what can it do? Students will be introduced to the basic algorithm of input, processing, and output (IPO). Students will be making projects that utilize the microbit sensors to get input, the microbit and basic math to process the input, and the LED screen to output the results.
