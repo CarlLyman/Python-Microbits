@@ -1,6 +1,6 @@
 # 2.0 Sensors 
 # by C Lyman
-# March 2019
+# April 2019
 # Module 2 of Coding & Innovation using Microbits - Python
 # Code for different sensors using Microbits
 
@@ -71,4 +71,5 @@ while True:
 # Code: compass.get_field_strength()
 # Example: 
     magnetismStrength = compass.get_field_strength()
+	
 
