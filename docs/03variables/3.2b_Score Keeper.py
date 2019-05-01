@@ -1,6 +1,6 @@
 # 3.2b Score Keeper
 # by C Lyman
-# March 2019
+# May 2019
 # Activity from Module 3 -Everything Counts (Variables)
 # of Coding & Innovation using Microbits - Python
 # This project uses counters to add 1 to a variable to increase its value.
