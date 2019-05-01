@@ -28,7 +28,15 @@ while True:
         score2 = score2 + 1
         # or score2 += 1
         display.scroll(score2)
-
+        
+    # Display scores for each team
+    # Event - pin0 touched? (pin0 & GND)
+    if  button_a.was_pressed() and button_b.was_pressed():
+        display.scroll("SCORE1")
+        display.scroll(score1)
+        display.scroll("SCORE2")
+        display.scroll(score2)
+        
     # Display scores for each team
     # Event - pin0 touched? (pin0 & GND)
     if  pin0.is_touched():
