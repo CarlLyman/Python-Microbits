@@ -27,5 +27,5 @@ while True:
             display.show(Image:DUCK)
         sleep(5000)
         display.clear()
-        toss - 0
+        toss = 0
         
