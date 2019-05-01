@@ -1,4 +1,6 @@
 # 02.2 Gestures Events
+# by C Lyman
+# May 2019
 
 from microbit import *
 
