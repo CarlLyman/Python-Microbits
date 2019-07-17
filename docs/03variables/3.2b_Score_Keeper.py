@@ -1,6 +1,6 @@
 # 3.2b Score Keeper
 # by C Lyman
-# May 2019
+# July 2019
 # Activity from Module 3 -Everything Counts (Variables)
 # of Coding & Innovation using Microbits - Python
 # This project uses counters to add 1 to a variable to increase its value.
@@ -30,27 +30,22 @@ while True:
         display.scroll(score2)
         
     # Display scores for each team
-    # Event - pin0 touched? (pin0 & GND)
+    # Event - A + B buttons pressed
     if  button_a.was_pressed() and button_b.was_pressed():
-        display.scroll("SCORE1")
+        display.scroll("TEAM 1")
         display.scroll(score1)
-        display.scroll("SCORE2")
+        display.scroll("TEAM 2")
         display.scroll(score2)
         
-    # Display scores for each team
-    # Event - pin0 touched? (pin0 & GND)
-    if  pin0.is_touched():
-        display.scroll("SCORE1")
-        display.scroll(score1)
-        display.scroll("SCORE2")
-        display.scroll(score2)
-
     # Set scores back to 0 when shaking the Microbit
     # Event - shake?
-    if accelerometer.is_gesture("shake"):
+    # Event gesture shake
+    shake = accelerometer.was_gesture("shake")
+    if shake:
         score1 = 0
         score2 = 0
         display.scroll("SCORES")
         display.scroll(score1)
+		display.scroll(score2)
 
  
