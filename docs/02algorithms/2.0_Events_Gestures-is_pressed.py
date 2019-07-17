@@ -6,6 +6,10 @@
 
 from microbit import *
 
+# Gesture Events - Not the best version because it
+#   keep 4-5 gestures in the buffer before moving
+#   to the next gesture.
+
 # forever loop for Events
 while True:
     # Event - button A pressed?
