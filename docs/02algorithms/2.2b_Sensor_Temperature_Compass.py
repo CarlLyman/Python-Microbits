@@ -1,6 +1,6 @@
-# 2.2b Sensor Temperature & Compuss
+# 2.2b Sensor Temperature & Compass
 # by C Lyman
-# March 2019
+# July 2019
 # Activity from Module 2 of Coding & Innovation using Microbits - Python
 # When button A pressed - display current temperature in 
 # When button B pressed - display compass heading in degrees
@@ -9,19 +9,22 @@ from microbit import *
 
 display.scroll("SENSORS")
 # The compass needs to be calibrated to work.
-# It will ask you to "Tilt until the screen is filled."
-# Then it will show a "smiley face" show it worked.
+# It will ask you to "Tilt to fill the screen."
+# Then it will show a "smiley face" to show it worked.
 compass.calibrate()
 
 # forever loop for Events
 while True:
     # Event - button A pressed?
-    if button_a.is_pressed():
+    Apressed = button_a.was_pressed()
+    if Apressed:
         display.scroll(temperature())
         sleep(2000)
         display.clear
+
     # Event - button B pressed?
-    if button_b.is_pressed():
+    Bpressed = button_b.was_pressed()
+    if Bpressed:
         display.scroll(compass.heading())
         sleep(2000)
         display.clear
