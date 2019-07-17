@@ -47,5 +47,6 @@ while True:
         display.scroll("SCORES")
         display.scroll(score1)
 		display.scroll(score2)
+		
 
  
