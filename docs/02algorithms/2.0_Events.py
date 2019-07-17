@@ -1,6 +1,6 @@
 # 2.0 Event Structures
 # by C Lyman
-# March 2019
+# July 2019
 # Module 2 of Coding & Innovation using Microbits - Python
 # Structures for different events using Microbits
 
@@ -38,53 +38,51 @@ while True:
         # action when pin2 & ground are touched
         display.show("2")
         
-    # Event - face up?
-    if accelerometer.is_gesture("face up"):
-        # action when microbit is face up
+    # Event gesture face up
+    faceUp = accelerometer.was_gesture("face up")
+    if faceUp:
         display.scroll("UP")
+    
+    # Event gesture face down
+    faceDown = accelerometer.was_gesture("face down")
+    if faceDown:
+        display.scroll("DWN")
         
-    # Event - face down?
-    if accelerometer.is_gesture("face down"):
-        # action when microbit is face down
-        display.scroll("DOWN")
-        
-    # Event - shake?
-    if accelerometer.is_gesture("shake"):
-        # action when microbit is shaken
+    # Event gesture shake
+    shake = accelerometer.was_gesture("shake")
+    if shake:
         display.scroll("SHK")
-
-    # Event - up?
-    if accelerometer.is_gesture("up"):
-        # action when microbit is up (tilt forward)
-        display.scroll("FWD")
         
-    # Event - down?
-    if accelerometer.is_gesture("down"):
-        # action when microbit is down (tilt back)
-        display.scroll("BACK")
+    # Event gesture up
+    up = accelerometer.was_gesture("up")
+    if up:
+        display.scroll("^")
         
-    # Event - tilt right?
-    if accelerometer.is_gesture("right"):
-        # action when microbit is tilted right
-        display.scroll("=>")
- 
-    # Event - tilt left?
-    if accelerometer.is_gesture("left"):
-        # action when microbit is tilted left
-        display.scroll("<=")
+    # Event gesture down
+    down = accelerometer.was_gesture("down")
+    if down:
+        display.show("v")
+        
+    # Event gesture right
+    right = accelerometer.was_gesture("right")
+    if right:
+        display.show(">")
+        
+    # Event gesture left
+    left = accelerometer.was_gesture("left")
+    if left:
+        display.show("<")
         
     # Event - freefall?
-    if accelerometer.is_gesture("freefall"):
+    freefall = accelerometer.was_gesture("freefall")
+    if freefall:
         # action when microbit is in freefall
         display.scroll("FF")
         
     # Event - 3g?
-    if accelerometer.is_gesture("3g"): #6g & 8g are options
+    threeG = accelerometer.was_gesture("3g")
+    if threeG:
+    #6g & 8g are also options
         # action when microbit is accelerated at 3G
         display.scroll("3G")
-        
-          
-        
-        
-
         
