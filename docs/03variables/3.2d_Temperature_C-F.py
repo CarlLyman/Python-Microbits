@@ -21,6 +21,7 @@ while True:
         display.scroll("C")
         sleep(2000)
         display.clear
+		
     # Event - button B pressed?
     if button_b.is_pressed():
         celsius = celsius - 2
