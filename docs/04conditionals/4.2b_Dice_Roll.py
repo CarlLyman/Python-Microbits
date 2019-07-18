@@ -1,6 +1,6 @@
 # 4.2b Dice Roll
 # by C Lyman
-# May 2019
+# July 2019
 # Activity from Module 4 - Making Decisions (Conditionals)
 # of Coding & Innovation using Microbits - Python
 # This project uses a condition (if..then..) and
@@ -11,7 +11,7 @@ from microbit import *
 import random
 
 display.scroll("DICE")
-# set up variables and assign values of 0
+# set up variables and assign values for each roll
 roll = 0
 roll1 = 1
 roll2 = 2
@@ -26,7 +26,7 @@ while True:
     # Event gesture shake?
     shake = accelerometer.was_gesture("shake")
     if shake:
-        roll = random.randomint(6)
+        roll = random.randint(1,6)
         if roll == 1:
             display.show(roll1)
         elif roll==2:
@@ -38,8 +38,8 @@ while True:
         elif roll==5:
             display.show(roll5)
         else:
-            display.show(roll1)
-        sleep(5000)
+            display.show(roll6)
+        sleep(3000)
         display.clear()
         roll = 0
         
