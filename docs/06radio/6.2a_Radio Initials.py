@@ -22,7 +22,7 @@ while True:
     if button_a.was_pressed():
         radio.send("ME")
         
-    # set up variable to store receive initials
+    # set up variable to store received initials
     initials = radio.receive()
     if initials is not None:
         display.scroll(initials)
